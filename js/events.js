@@ -12,6 +12,12 @@ function frameIt() {
   });
 }
 
+function pressIt() {
+  $('form').on("keypress", function(key) {
+    if(key.which ==)
+  }
+}
+
 $(document).ready(function(){
 
 // call functions here
