@@ -2,9 +2,7 @@
 
 function getIt() {
   $('p').on("click", function() {
-    if(click) {
       alert('Hey!');
-    }
   });
 }
 
