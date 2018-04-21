@@ -14,8 +14,10 @@ function frameIt() {
 
 function pressIt() {
   $('form').on("keypress", function(key) {
-    if(key.which ==)
-  }
+    if(key.which == 71) {
+      alert('G has been pressed bitch');
+    }
+  });
 }
 
 $(document).ready(function(){
